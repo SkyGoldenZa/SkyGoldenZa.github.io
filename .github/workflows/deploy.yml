@@ -13,3 +13,4 @@ jobs:
            with:
               access-token: ${{ secrets.MY_ONLINE_PORTFOLIO }}
               deploy-branch: master
+              gatsby-args: --prefix-paths
