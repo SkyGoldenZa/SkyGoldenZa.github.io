@@ -77,7 +77,7 @@ export const projectsData = [
       img: 'rainfin.png',
       title: 'Rainfin',
       info: 'Worked with Angular v2 and updated each version until Angular v6.',
-      info2: 'The seem to be protective over who gets the link to their login portal.',
+      info2: 'They seem to be protective over who gets the link to their login portal.',
       url: 'https://www.rainfin.com/About/Howitworks',
       buttonText: 'Read more',
       repo: '',
@@ -85,7 +85,7 @@ export const projectsData = [
 ];
 
 export const contactData = {
-   cta: 'Opens in default email client',
+   cta: 'Opens in your default email client',
    btn: 'Email',
    email: 'skygolden90@gmail.com',
 };
