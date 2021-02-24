@@ -56,7 +56,7 @@ export const projectsData = [
       img: 'fireweb.png',
       title: 'FireWeb (Proprietary Software)',
       info:
-         'Worked on the font-end and dabbled in PHP. Worked a lot on the integrated maps system using the Google Maps API.',
+         'Worked on the front-end and dabbled in PHP. Worked a lot on the integrated maps system using the Google Maps API.',
       info2: 'Would you like to find out more about what Fireweb entails?',
       url: 'https://syw.io/fireweb.html',
       buttonText: 'Read more',
@@ -66,7 +66,7 @@ export const projectsData = [
       id: nanoid(),
       img: 'uniti.png',
       title: 'Uniti (Proprietary Software)',
-      info: 'Worked on the font-end and dabbled in PHP.',
+      info: 'Worked on the front-end and dabbled in PHP.',
       info2: 'Would you like to find out more about what Uniti entails?',
       url: 'https://syw.io/uniti.html',
       buttonText: 'Read more',
