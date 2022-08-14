@@ -8,30 +8,68 @@ export const headData = {
 };
 
 export const heroData = {
-   title: ' ',
+   title: 'Test title here',
    name: 'Sky Golden',
    subtitle: 'Senior Front-End Developer',
    cta: 'Learn more',
 };
 
 export const aboutData = {
-   img: 'my-photo.png',
-   paragraphOne: 'Senior Front-End Developer who specialises in building web apps using Reactjs and Angular.',
-   paragraphTwo: 'Plenty of experience in the mobile first approach for making web apps responsive and fluid.',
-   paragraphThree: 'Currently learning C# with .NET Core and Node.js with Express.',
+   img: 'my-photo.jpeg',
+   paragraphOne: 'Senior Front-End Developer who specialises in building web apps using Reactjs and React Native.',
+   paragraphTwo: 'Lots of experience in the mobile first approach for making web apps responsive and fluid.',
+   paragraphThree: ' ',
    resume: 'https://www.canva.com/design/DAEWq4q33rw/__it1wlEv2kHgpe93P_rHQ/view#1',
 };
 
 export const projectsData = [
    {
       id: nanoid(),
-      img: '22seven.png',
-      title: '22seven',
-      info:
-         'Part of the re-write team who made the web app entirely Reactjs, while also maintaining feature updates on the old Angularjs v1 and Reactjs hybrid web app until the re-write was completed.',
+      img: 'revix.png',
+      title: 'Revix',
+      info: (
+         <span>
+            Part of the small team who made the React Native app while also working on the Front-end guild helping
+            create coding standards.&nbsp;
+            <a
+               className="text-color-secondary"
+               href="https://apps.apple.com/za/app/revix-buy-bitcoin-crypto/id1590491829"
+               rel="noreferrer"
+               target="_blank"
+            >
+               iOS
+            </a>
+            &nbsp;|&nbsp;
+            <a
+               className="text-color-secondary"
+               href="https://play.google.com/store/apps/details?id=com.revix.app"
+               rel="noreferrer"
+               target="_blank"
+            >
+               Android
+            </a>
+         </span>
+      ),
       info2: (
          <span>
-            Also helped out on the&nbsp;
+            I also worked on the React app and the&nbsp;
+            <a className="text-color-secondary" href="https://www.revix.com" rel="noreferrer" target="_blank">
+               public Gatsby website.
+            </a>
+         </span>
+      ),
+      url: 'https://app.revix.com/login',
+      buttonText: 'Link to portal',
+      repo: '',
+   },
+   {
+      id: nanoid(),
+      img: '22seven.png',
+      title: '22seven',
+      info: 'Part of the re-write team who made the web app entirely Reactjs, while also maintaining feature updates on the old Angularjs v1 and Reactjs hybrid web app until the re-write was completed.',
+      info2: (
+         <span>
+            I also worked on the&nbsp;
             <a className="text-color-secondary" href="https://www.22seven.com" rel="noreferrer" target="_blank">
                public Gatsby website.
             </a>
@@ -55,8 +93,7 @@ export const projectsData = [
       id: nanoid(),
       img: 'fireweb.png',
       title: 'FireWeb (Proprietary Software)',
-      info:
-         'Worked on the font-end and dabbled in PHP. Worked a lot on the integrated maps system using the Google Maps API.',
+      info: 'Worked on the font-end and dabbled in PHP. Worked a lot on the integrated maps system using the Google Maps API.',
       info2: 'Would you like to find out more about what Fireweb entails?',
       url: 'https://syw.io/fireweb.html',
       buttonText: 'Read more',

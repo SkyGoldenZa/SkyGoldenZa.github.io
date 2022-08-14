@@ -1,59 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="485f36aa-947e-4871-97be-830ca07dbc1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/example.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GithubButtons/GithubButtons.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Image/AboutImg.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Image/ProjectImg.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Title/Title.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/22seven.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/fireweb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/my-media.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/my-photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/rainfin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/uniti.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/abstracts/_helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/abstracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/abstracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/base/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/layout/_sections.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/sections/_about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/sections/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/sections/_hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/sections/_projects.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/vendor/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/vendor/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Image/AboutImg.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Image/AboutImg.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/my-photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/my-photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mock/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,23 +49,31 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1omUcaIcUMUvUwjdoZBT1mtpkG0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/skygolden/Documents/Other/SkyGoldenZa.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/skygolden/Documents/Other/SkyGoldenZa.github.io/node_modules/prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -116,6 +84,10 @@
       <updated>1613891340131</updated>
       <workItem from="1613891341817" duration="2800000" />
       <workItem from="1613915065212" duration="6537000" />
+      <workItem from="1659951589114" duration="898000" />
+      <workItem from="1659954347672" duration="4258000" />
+      <workItem from="1660234577118" duration="10001000" />
+      <workItem from="1660487436214" duration="977000" />
     </task>
     <servers />
   </component>
