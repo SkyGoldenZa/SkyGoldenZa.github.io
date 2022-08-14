@@ -2,24 +2,25 @@ import React from 'react';
 import { nanoid } from 'nanoid';
 
 export const headData = {
-   title: 'Sky Golden | Senior Front-End Developer',
+   title: 'Sky Golden | Senior Front-End Engineer',
    lang: 'en',
-   description: 'Senior Front-End Developer portfolio website',
+   description: 'Senior Front-End Engineer portfolio website',
 };
 
 export const heroData = {
-   title: 'Test title here',
+   title: ' ',
    name: 'Sky Golden',
-   subtitle: 'Senior Front-End Developer',
+   subtitle: 'Senior Front-End Engineer',
    cta: 'Learn more',
 };
 
 export const aboutData = {
    img: 'my-photo.jpeg',
-   paragraphOne: 'Senior Front-End Developer who specialises in building web apps using Reactjs and React Native.',
-   paragraphTwo: 'Lots of experience in the mobile first approach for making web apps responsive and fluid.',
+   paragraphOne:
+      'I am a Senior Front-End Engineer who specialises in building web-apps using Reactjs and React Native.',
+   paragraphTwo: 'I have a lot of experience using the mobile first approach and making web-apps responsive and fluid.',
    paragraphThree: ' ',
-   resume: 'https://www.canva.com/design/DAEWq4q33rw/__it1wlEv2kHgpe93P_rHQ/view#1',
+   resume: 'https://www.canva.com/design/DAE6SEhA0cY/0724QcayVU_-CyyKpXICQw/view',
 };
 
 export const projectsData = [
@@ -29,8 +30,8 @@ export const projectsData = [
       title: 'Revix',
       info: (
          <span>
-            Part of the small team who made the React Native app while also working on the Front-end guild helping
-            create coding standards.&nbsp;
+            I was apart of the small team who made the React Native app while also working on the Front-end guild
+            helping create coding standards.&nbsp;
             <a
                className="text-color-secondary"
                href="https://apps.apple.com/za/app/revix-buy-bitcoin-crypto/id1590491829"
@@ -66,7 +67,7 @@ export const projectsData = [
       id: nanoid(),
       img: '22seven.png',
       title: '22seven',
-      info: 'Part of the re-write team who made the web app entirely Reactjs, while also maintaining feature updates on the old Angularjs v1 and Reactjs hybrid web app until the re-write was completed.',
+      info: 'I was apart of a re-write team who wrote the web-app entirely in Reactjs, whilst also maintaining feature updates on the old web-app until the re-write was completed.',
       info2: (
          <span>
             I also worked on the&nbsp;
@@ -83,7 +84,7 @@ export const projectsData = [
       id: nanoid(),
       img: 'my-media.png',
       title: 'MyMedia (Can only be accessed via free trial on homepage)',
-      info: 'Worked with Angular v2 and updated each version until Angular v6.',
+      info: 'I worked with Angular v2, worked on new features and updated each version until Angular v6.',
       info2: 'My first time getting real world experience using the new Angular and Material-UI.',
       url: 'https://app.my-media.com.au/auth/login',
       buttonText: 'Link to portal',
@@ -93,7 +94,7 @@ export const projectsData = [
       id: nanoid(),
       img: 'fireweb.png',
       title: 'FireWeb (Proprietary Software)',
-      info: 'Worked on the font-end and dabbled in PHP. Worked a lot on the integrated maps system using the Google Maps API.',
+      info: 'I worked on the font-end and dabbled in PHP. Worked a lot on the integrated maps system using the Google Maps API.',
       info2: 'Would you like to find out more about what Fireweb entails?',
       url: 'https://syw.io/fireweb.html',
       buttonText: 'Read more',
@@ -103,7 +104,7 @@ export const projectsData = [
       id: nanoid(),
       img: 'uniti.png',
       title: 'Uniti (Proprietary Software)',
-      info: 'Worked on the font-end and dabbled in PHP.',
+      info: 'I worked on the Angular web-app and dabbled in the PHP Laravel framework.',
       info2: 'Would you like to find out more about what Uniti entails?',
       url: 'https://syw.io/uniti.html',
       buttonText: 'Read more',
@@ -113,7 +114,7 @@ export const projectsData = [
       id: nanoid(),
       img: 'rainfin.png',
       title: 'Rainfin',
-      info: 'Worked with Angular v2 and updated each version until Angular v6.',
+      info: 'I worked with Angular v2, worked on new features and updated each version until Angular v6.',
       info2: 'The seem to be protective over who gets the link to their login portal.',
       url: 'https://www.rainfin.com/About/Howitworks',
       buttonText: 'Read more',
