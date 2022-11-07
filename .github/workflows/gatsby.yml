@@ -90,8 +90,8 @@ jobs:
 
   # Deployment job
   deploy:
-    - name: Beginning deploy
     needs: build
+    - name: Beginning of deploy
     environment:
       name: gh-pages
       url: ${{ steps.deployment.outputs.page_url }}
