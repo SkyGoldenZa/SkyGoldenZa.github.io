@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
    title: 'Sky Golden | Senior Front-End Engineer',
    lang: 'en',
-   description: 'Senior Front-End Engineer portfolio website',
+   description: 'Portfolio: Senior Front-End Engineer',
 };
 
 export const heroData = {
@@ -17,9 +17,11 @@ export const heroData = {
 export const aboutData = {
    img: 'my-photo.jpeg',
    paragraphOne:
-      'I am a Senior Front-End Engineer who specialises in building web-apps using Reactjs and React Native.',
-   paragraphTwo: 'I have a lot of experience using the mobile first approach and making web-apps responsive and fluid.',
+      'I’m a Senior Front-End Engineer with 8 years of experience building websites. In the last 4 years I have been focussing on Reactjs and React Native.',
+   paragraphTwo:
+      'I’m well versed in the mobile first approach and making web-apps responsive and fluid. I have a strong  interest in building efficient, maintainable and robust front-end code and I always advocate for good communication within my teams.',
    paragraphThree: ' ',
+   paragraphFour: ' ',
    resume: 'https://www.canva.com/design/DAE6SEhA0cY/0724QcayVU_-CyyKpXICQw/view',
 };
 
@@ -30,7 +32,7 @@ export const projectsData = [
       title: 'Revix',
       info: (
          <span>
-            I was apart of the small team who made the React Native app while also working on the Front-end guild
+            I was a part of the small team who made the React Native app while also working on the Front-end guild
             helping create coding standards.&nbsp;
             <a
                className="text-color-secondary"
@@ -67,7 +69,7 @@ export const projectsData = [
       id: nanoid(),
       img: '22seven.png',
       title: '22seven',
-      info: 'I was apart of a re-write team who wrote the web-app entirely in Reactjs, whilst also maintaining feature updates on the old web-app until the re-write was completed.',
+      info: 'I was in a small re-write team who wrote the web-app in Reactjs, whilst also maintaining feature updates on the old web-app until the re-write was completed.',
       info2: (
          <span>
             I also worked on the&nbsp;
@@ -94,8 +96,8 @@ export const projectsData = [
       id: nanoid(),
       img: 'fireweb.png',
       title: 'FireWeb (Proprietary Software)',
-      info: 'I worked on the font-end and dabbled in PHP. Worked a lot on the integrated maps system using the Google Maps API.',
-      info2: 'Would you like to find out more about what Fireweb entails?',
+      info: 'I worked on the integrated maps system using Google API. This was mainly on the front end, but I also worked with PHP.',
+      info2: ' ',
       url: 'https://syw.io/fireweb.html',
       buttonText: 'Read more',
       repo: '',
@@ -105,7 +107,7 @@ export const projectsData = [
       img: 'uniti.png',
       title: 'Uniti (Proprietary Software)',
       info: 'I worked on the Angular web-app and dabbled in the PHP Laravel framework.',
-      info2: 'Would you like to find out more about what Uniti entails?',
+      info2: ' ',
       url: 'https://syw.io/uniti.html',
       buttonText: 'Read more',
       repo: '',
@@ -114,8 +116,8 @@ export const projectsData = [
       id: nanoid(),
       img: 'rainfin.png',
       title: 'Rainfin',
-      info: 'I worked with Angular v2, worked on new features and updated each version until Angular v6.',
-      info2: 'The seem to be protective over who gets the link to their login portal.',
+      info: 'I worked using Angular, added new features and updated each Angular version until v6.',
+      info2: ' ',
       url: 'https://www.rainfin.com/About/Howitworks',
       buttonText: 'Read more',
       repo: '',
@@ -123,7 +125,7 @@ export const projectsData = [
 ];
 
 export const contactData = {
-   cta: 'Opens in default email client',
+   cta: 'Opens in your default email client',
    btn: 'Email',
    email: 'skygolden90@gmail.com',
 };
