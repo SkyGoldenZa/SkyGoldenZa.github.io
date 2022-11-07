@@ -96,8 +96,19 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-        with:
-          deploy-branch: gh-pages
+       - uses: actions/checkout@v2
+       - name: Use Node.js
+         uses: actions/setup-node@v1
+         with:
+           node-version: '12.x'
+       - uses: actions/download-artifact@v2
+         with:
+           name: public
+           path: public/
+       - run: yarn install
+       - run: yarn serverless:deploy
+       - name: Deploy to GitHub Pages
+         id: deployment
+         uses: actions/deploy-pages@v1
+#         with:
+#           deploy-branch: gh-pages
