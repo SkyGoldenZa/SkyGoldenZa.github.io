@@ -100,4 +100,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          deploy-branch: ["gh-pages"]
+          deploy-branch: gh-pages
