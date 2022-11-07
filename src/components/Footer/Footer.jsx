@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
+import { Link } from 'gatsby';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
 const Footer = () => {
@@ -11,10 +11,11 @@ const Footer = () => {
       <footer className="footer navbar-static-bottom">
          <Container>
             <span className="back-to-top">
-               <Link to="hero" smooth duration={1000}>
+               <Link to="#hero">
                   <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
                </Link>
             </span>
+
             <div className="social-links">
                {networks &&
                   networks.map((network) => {
