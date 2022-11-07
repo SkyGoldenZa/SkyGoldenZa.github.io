@@ -91,9 +91,6 @@ jobs:
   # Deployment job
   deploy:
     needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
        - uses: actions/checkout@v2
@@ -103,12 +100,12 @@ jobs:
            node-version: '12.x'
        - uses: actions/download-artifact@v2
          with:
-           name: public
-           path: public/
+           name: Upload artifact
+           path: ./public
        - run: yarn install
        - run: yarn serverless:deploy
        - name: Deploy to GitHub Pages
          id: deployment
          uses: actions/deploy-pages@v1
-#         with:
-#           deploy-branch: gh-pages
+        with:
+          deploy-branch: gh-pages
