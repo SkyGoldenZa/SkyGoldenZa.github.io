@@ -102,8 +102,8 @@ jobs:
          with:
            name: Upload artifact
            path: ./public
-       - run: yarn install
-       - run: yarn serverless:deploy
+       - run: npm install
+       - run: npm run deploy
        - name: Deploy to GitHub Pages
          id: deployment
          uses: actions/deploy-pages@v1
